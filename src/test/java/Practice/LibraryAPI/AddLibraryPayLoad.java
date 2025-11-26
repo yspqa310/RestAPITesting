@@ -2,12 +2,12 @@ package Practice.LibraryAPI;
 
 public class AddLibraryPayLoad {
 
-    public static String AddBook(){
+    public static String AddBook(String bookName,String authorName,String isbn,String aisle){
         return "{\n" +
-                "\"name\":\"Ocean\",\n" +
-                "\"isbn\":\"bcdhjsdcbsk\",\n" +
-                "\"aisle\":\"283495827\",\n" +
-                "\"author\":\"YSP Shaik\"\n" +
+                "\"name\":\""+bookName+"\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
+                "\"author\":\""+authorName+"\"\n" +
                 "}\n" +
                 " \n";
     }

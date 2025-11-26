@@ -1,10 +1,6 @@
-package Practice;
+package Practice.RahulShetty;
 
 import io.restassured.path.json.JsonPath;
-import org.testng.Assert;
-
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
 public class Jsonpath extends payLoad {
 

@@ -1,4 +1,4 @@
-package Practice;
+package Practice.RahulShetty;
 
 import frameWork.RestUtils;
 import io.restassured.path.json.JsonPath;
